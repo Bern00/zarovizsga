@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94fe86b1-e87d-40aa-ab59-2940040f2dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/digitscounter/DigitsCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Beagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Husky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Kennel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/workhours/WorkHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hu/nive/ujratervezes/zarovizsga/workhours/workhours.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/V1__dogs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migrations/V1__dogs.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/workhours/WorkHoursTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/workhours/WorkHoursTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,7 @@
       <recent name="hu.nive.ujratervezes.zarovizsga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DogTypes">
+  <component name="RunManager" selected="JUnit.DogTypesTest">
     <configuration name="DogTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.dogtypes.DogTypes" />
       <module name="zarovizsga" />
@@ -136,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DogTypes" />
         <item itemvalue="JUnit.DogTypesTest" />
+        <item itemvalue="Application.DogTypes" />
         <item itemvalue="JUnit.WorkHoursTest" />
         <item itemvalue="Application.WorkHours" />
         <item itemvalue="JUnit.KennelTest" />
@@ -160,11 +149,19 @@
       <option name="project" value="LOCAL" />
       <updated>1615910382419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="in progress">
+      <created>1615919427229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615919427229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="in progress" />
   </component>
 </project>

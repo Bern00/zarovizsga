@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.zarovizsga.dogtypes;
-/*
+
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -23,12 +23,12 @@ public class DogTypesTest {
         dataSource.setUser("root");
         dataSource.setPassword("root");
 
-        // Flyway flyway = Flyway.configure().dataSource(dataSource).load();
+         Flyway flyway = Flyway.configure().dataSource(dataSource).load();
 
-//        flyway.clean();
-//        flyway.migrate();
+         flyway.clean();
+         flyway.migrate();
 
-        dogTypes = new DogTypes();
+        dogTypes = new DogTypes(dataSource);
 
     }
 
@@ -41,6 +41,4 @@ public class DogTypesTest {
     }
 
 }
-
- */
 
