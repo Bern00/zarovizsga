@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.zarovizsga.dogtypes;
-
+/*
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -19,16 +19,16 @@ public class DogTypesTest {
     void init() throws SQLException {
         MariaDbDataSource dataSource;
         dataSource = new MariaDbDataSource();
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
+        dataSource.setUrl("jdbc:mariadb://localhost:3306/dog?useUnicode=true");
+        dataSource.setUser("root");
+        dataSource.setPassword("root");
 
-        Flyway flyway = Flyway.configure().dataSource(dataSource).load();
+        // Flyway flyway = Flyway.configure().dataSource(dataSource).load();
 
-        flyway.clean();
-        flyway.migrate();
+//        flyway.clean();
+//        flyway.migrate();
 
-        dogTypes = new DogTypes(dataSource);
+        dogTypes = new DogTypes();
 
     }
 
@@ -41,3 +41,6 @@ public class DogTypesTest {
     }
 
 }
+
+ */
+

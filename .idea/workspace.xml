@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94fe86b1-e87d-40aa-ab59-2940040f2dc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/digitscounter/DigitsCounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/kennel/BeagleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/kennel/HuskyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/kennel/KennelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/workhours/WorkHoursTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zarovizsga.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/digitscounter/DigitsCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Beagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Husky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/kennel/Kennel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/workhours/WorkHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hu/nive/ujratervezes/zarovizsga/workhours/workhours.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/V1__dogs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migrations/V1__dogs.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/workhours/WorkHoursTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/workhours/WorkHoursTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,98 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\training\zarovizsga\src\main\resources\db\migrations" />
+      <recent name="C:\training\zarovizsga" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hu.nive.ujratervezes.zarovizsga.kennel" />
+      <recent name="hu.nive.ujratervezes.zarovizsga" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DogTypes">
+    <configuration name="DogTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.dogtypes.DogTypes" />
+      <module name="zarovizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.zarovizsga.dogtypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkHours" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.workhours.WorkHours" />
+      <module name="zarovizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.zarovizsga.workhours.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DogTypesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zarovizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.zarovizsga.dogtypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.zarovizsga.dogtypes" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.dogtypes.DogTypesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KennelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zarovizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.zarovizsga.kennel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.zarovizsga.kennel" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.kennel.KennelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkHoursTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zarovizsga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.nive.ujratervezes.zarovizsga.workhours.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.zarovizsga.workhours" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.workhours.WorkHoursTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DogTypes" />
+        <item itemvalue="JUnit.DogTypesTest" />
+        <item itemvalue="JUnit.WorkHoursTest" />
+        <item itemvalue="Application.WorkHours" />
+        <item itemvalue="JUnit.KennelTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,6 +153,18 @@
       <option name="presentableId" value="Default" />
       <updated>1615909342125</updated>
     </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1615910382419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615910382419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
 </project>
