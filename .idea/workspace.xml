@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94fe86b1-e87d-40aa-ab59-2940040f2dc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migrations/V1__dogs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1_dogs.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +36,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\training\zarovizsga\src\test\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\training\zarovizsga\src\test\resources\db" />
       <recent name="C:\training\zarovizsga\src\main\resources\db\migrations" />
       <recent name="C:\training\zarovizsga" />
     </key>
@@ -93,17 +98,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KennelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DogTypesTest.testGetDogsByCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zarovizsga" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.nive.ujratervezes.zarovizsga.kennel.*" />
+          <option name="PATTERN" value="hu.nive.ujratervezes.zarovizsga.dogtypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.zarovizsga.kennel" />
-      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.kennel.KennelTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="hu.nive.ujratervezes.zarovizsga.dogtypes" />
+      <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.dogtypes.DogTypesTest" />
+      <option name="METHOD_NAME" value="testGetDogsByCountry" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DogTypesTest" />
-        <item itemvalue="Application.DogTypes" />
+        <item itemvalue="JUnit.DogTypesTest.testGetDogsByCountry" />
         <item itemvalue="JUnit.WorkHoursTest" />
         <item itemvalue="Application.WorkHours" />
-        <item itemvalue="JUnit.KennelTest" />
+        <item itemvalue="Application.DogTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -156,12 +162,31 @@
       <option name="project" value="LOCAL" />
       <updated>1615919427229</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed">
+      <created>1615919938522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615919938522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="in progress" />
+    <MESSAGE value="completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed" />
   </component>
 </project>

@@ -35,10 +35,10 @@ public class DogTypes {
                 return names;
 
             } catch (SQLException sqle) {
-                throw new IllegalArgumentException("Error by insert", sqle);
+                throw new IllegalArgumentException("Error by search", sqle);    // itt dobja az exception-t
             }
         } catch (SQLException sqle) {
-            throw new IllegalArgumentException("Error by insert", sqle);
+            throw new IllegalArgumentException("Error by connect", sqle);
         }
 
 
