@@ -14,7 +14,9 @@ public class DogTypes {
     }
 
     public List<String> getDogsByCountry(String country){
-
+        return List.of();
+    }
+/*
         try (
                 Connection conn = dataSource.getConnection();
                 PreparedStatement stmt =
@@ -43,4 +45,6 @@ public class DogTypes {
 
 
     }
+
+ */
 }

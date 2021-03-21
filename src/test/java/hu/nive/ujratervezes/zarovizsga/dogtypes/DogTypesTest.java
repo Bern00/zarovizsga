@@ -19,7 +19,7 @@ public class DogTypesTest {
     void init() throws SQLException {
         MariaDbDataSource dataSource;
         dataSource = new MariaDbDataSource();
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/dog?useUnicode=true");
+        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
         dataSource.setUser("root");
         dataSource.setPassword("root");
 
