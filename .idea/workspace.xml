@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94fe86b1-e87d-40aa-ab59-2940040f2dc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/nive/ujratervezes/zarovizsga/dogtypes/DogTypesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <recent name="hu.nive.ujratervezes.zarovizsga" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DogTypesTest">
+  <component name="RunManager" selected="JUnit.DogTypesTest.testGetDogsByCountry">
     <configuration name="DogTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.nive.ujratervezes.zarovizsga.dogtypes.DogTypes" />
       <module name="zarovizsga" />
@@ -131,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DogTypesTest" />
         <item itemvalue="JUnit.DogTypesTest.testGetDogsByCountry" />
+        <item itemvalue="JUnit.DogTypesTest" />
         <item itemvalue="JUnit.WorkHoursTest" />
         <item itemvalue="Application.WorkHours" />
         <item itemvalue="Application.DogTypes" />
@@ -176,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615924516957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hiba keresés">
+      <created>1616350278900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616350278900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +201,8 @@
     <MESSAGE value="in progress" />
     <MESSAGE value="completed" />
     <MESSAGE value="SQL directory renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQL directory renamed" />
+    <MESSAGE value="hiba keresés" />
+    <option name="LAST_COMMIT_MESSAGE" value="hiba keresés" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
